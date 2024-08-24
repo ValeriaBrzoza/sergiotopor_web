@@ -1,0 +1,291 @@
+---
+import Layout from "../components/Layout.astro";
+---
+
+<Layout>
+     <!-- top-bar-holder  -->
+     <div class="top-bar-holder pdtb">
+        <div class="top-bar">
+            <div class="top-bar-title">
+                <h2><span>Página</span> : <a href="portfolio" class="ajax">Proyectos</a></h2>
+            </div>
+            <div class="show-share">
+                <span>Compartir</span>
+                <i class="fa fa-chain-broken"></i>            
+            </div>
+            <div class="share-container"  data-share="['facebook','pinterest','googleplus','twitter','linkedin']"><a class="closeshare"><i class="fa fa-times"></i></a></div>
+        </div>
+    </div>
+    <!-- top-bar-holder  end-->
+    <!-- content -->
+    <div class="content pad-con">
+      <!-- filter -->
+        <div class="filter-holder inline-filter">
+            <div class="filter-button"><span>Filter</span></div>
+            <div class="gallery-filters vis-filter">
+                <a href="#" class="gallery-filter gallery-filter-active"  data-filter="*">Ver Todo</a>
+                <a href="#" class="gallery-filter " data-filter=".evaluacion">Evaluación de Proyectos de Inversión</a>
+                <a href="#" class="gallery-filter" data-filter=".diseño">Diseño de Arquitectura</a>
+                <a href="#" class="gallery-filter" data-filter=".project">Project Management</a>
+                <a href="#" class="gallery-filter" data-filter=".direccion">Dirección de Obra</a>
+                <a href="#" class="gallery-filter" data-filter=".planificacion">Planificación, Programacón y Seguimiento</a>
+                <a href="#" class="gallery-filter" data-filter=".value">Value Engineering</a>
+            </div>
+            <div class="count-folio">
+                <div class="num-album"></div>
+                <div class="all-album"></div>
+            </div>
+        </div>
+        <!-- gallery-items   -->
+        <div class="gallery-items     grid-small-pad det-vis">
+            <!-- 1 -->
+            <div class="gallery-item diseño project evaluacion planificacion value">
+                <div class="grid-item-holder">
+                    <div class="box-item">
+                        <img  src="images/folio/thumbs/art.jpg"   alt="">
+                        <div class="overlay"></div>
+                        <a href="images/folio/thumbs/art.jpg" class="image-popup popup-image"><i class="fa fa-arrows-alt" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="grid-item">
+                        <h3><a href="proyecto_art" class="ajax portfolio-link">Proyecto ART</a></h3>
+                        <span>Diseño de Arquitectura / Project Management</span>
+                    </div>
+                </div>
+            </div>
+            <!-- 1 end -->
+            <!-- 2 -->
+            <div class="gallery-item diseño project evaluacion planificacion value">
+                <div class="grid-item-holder">
+                    <div class="box-item">
+                        <img  src="images/folio/thumbs/theone.jpg"   alt="">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="grid-item">
+                        <h3><a href="proyecto_theone" class="ajax portfolio-link">Proyecto The One</a></h3>
+                        <span>Diseño de Arquitectura / Project Management / PPyS</span>
+                    </div>
+                </div>
+            </div>
+            <!-- 2 end -->
+            <!-- 3 -->
+            <div class="gallery-item evaluacion value project planificacion">
+                <div class="grid-item-holder">
+                    <div class="box-item">
+                        <img  src="images/folio/thumbs/hogar.jpg"   alt="">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="grid-item">
+                        <h3><a href="proyecto_hogar" class="ajax portfolio-link">Nuevo Hogar LeDor VaDor</a></h3>
+                        <span>Project Management / Value Engineering / PPyS</span>
+                    </div>
+                </div>
+            </div>
+            <!-- 3 end -->
+            <!-- 4 -->
+            <div class="gallery-item value planifiacion">
+                <div class="grid-item-holder">
+                    <div class="box-item">
+                        <img  src="images/folio/thumbs/thehub.jpg"   alt="">
+                        <div class="overlay"></div>
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="grid-item">
+                        <h3><a href="proyecto_thehub" class="ajax portfolio-link">Hotel The Hub</a></h3>
+                        <span>Value Engineering / PPyS</span>
+                    </div>
+                </div>
+            </div>
+            <!-- 4 end -->                                    
+            <!-- 5 -->
+            <div class="gallery-item value planifiacion project">
+                <div class="grid-item-holder">
+                    <div class="box-item">
+                        <img  src="images/folio/thumbs/cincosoles.jpg"   alt="">
+                        <div class="overlay"></div>
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="grid-item">
+                        <h3><a href="proyecto_cincosoles" class="ajax portfolio-link">Barrio Privado Cinco Soles</a></h3>
+                        <span>Value Engineering / PPyS / Project Management</span>
+                    </div>
+                </div>
+            </div>
+            <!-- 5 end -->
+            <!-- 6 -->
+            <div class="gallery-item houses value planifiacion project evaluacion">
+                <div class="grid-item-holder">
+                    <div class="box-item">
+                        <img  src="images/folio/thumbs/start.jpg"   alt="">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="grid-item">
+                        <h3><a href="proyecto_start" class="ajax portfolio-link">START</a></h3>
+                        <span>Value Engineering / PPyS / Project Management</span>
+                    </div>
+                </div>
+            </div>
+            <!-- 6 end -->
+            <!-- 7 -->
+            <div class="gallery-item planificacion">
+                <div class="grid-item-holder">
+                    <div class="box-item">
+                        <img  src="images/folio/thumbs/alvear.jpg"   alt="">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="grid-item">
+                        <h3><a href="proyecto_alvear" class="ajax portfolio-link">Hotel Alvear Puerto Madero</a></h3>
+                        <span>PPys / Consultoría</span>
+                    </div>
+                </div>
+            </div>
+            <!-- 7 end -->
+            <!-- 8 -->
+            <div class="gallery-item project planificacion">
+                <div class="grid-item-holder">
+                    <div class="box-item">
+                        <img  src="images/folio/thumbs/losarcos.jpg"   alt="">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="grid-item">
+                        <h3><a href="proyecto_losarcos" class="ajax portfolio-link">Sanatorio Los Arcos</a></h3>
+                        <span>Project Management / PPys</span>
+                    </div>
+                </div>
+            </div>
+            <!-- 8 end -->
+            <!-- 9 -->
+            <div class="gallery-item project direccion value">
+                <div class="grid-item-holder">
+                    <div class="box-item">
+                        <img  src="images/folio/thumbs/potosi.jpg"   alt="">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="grid-item">
+                        <h3><a href="proyecto_potosi" class="ajax portfolio-link">Potosi 3940</a></h3>
+                        <span>Project Management / Dirección de Obra / Value Engineering</span>
+                    </div>
+                </div>
+            </div>
+            <!-- 9 end -->
+            <!-- 10 -->
+            <div class="gallery-item value planificacion project direccion">
+                <div class="grid-item-holder">
+                    <div class="box-item">
+                        <img  src="images/folio/thumbs/metro.jpg"   alt="">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="grid-item">
+                        <h3><a href="proyecto_metro" class="ajax portfolio-link">Metro VI</a></h3>
+                        <span>Value Engineering / PPyS / Project Management / Dirección de Obra</span>
+                    </div>
+                </div>
+            </div>
+            <!-- 10 end -->
+            <!-- 11 -->
+            <div class="gallery-item value planificacion">
+                <div class="grid-item-holder">
+                    <div class="box-item">
+                        <img  src="images/folio/thumbs/caballito.jpg"   alt="">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="grid-item">
+                        <h3><a href="proyecto_caballito" class="ajax portfolio-link">Caballito Nuevo</a></h3>
+                        <span>PPyS / Value Engineering</span>
+                    </div>
+                </div>
+            </div>
+            <!-- 11 end -->
+            <!-- 12 -->
+            <div class="gallery-item evaluacion project planificacion direccion value">
+                <div class="grid-item-holder">
+                    <div class="box-item">
+                        <img  src="images/folio/thumbs/delgado.jpg"   alt="">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="grid-item">
+                        <h3><a href="proyecto_delgado" class="ajax portfolio-link">Delgado 1549</a></h3>
+                        <span>Evaluacion de Proyectos / Project Management / PPyS / Dirección de Obra / Value Engineering</span>
+                    </div>
+                </div>
+            </div>
+            <!-- 12 end -->
+            <!-- 13 -->
+            <div class="gallery-item planificacion value project">
+                <div class="grid-item-holder">
+                    <div class="box-item">
+                        <img  src="images/folio/thumbs/movicom.jpg"   alt="">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="grid-item">
+                        <h3><a href="proyecto_movicom" class="ajax portfolio-link">Movicom Plaza</a></h3>
+                        <span>PPyS / Value Engineering / Project Management</span>
+                    </div>
+                </div>
+            </div>
+            <!-- 13 end -->
+            <!-- 14 -->
+            <div class="gallery-item planificacion project value">
+                <div class="grid-item-holder">
+                    <div class="box-item">
+                        <img  src="images/folio/thumbs/demaria.jpg"   alt="">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="grid-item">
+                        <h3><a href="proyecto_demaria" class="ajax portfolio-link">DEMARÏA</a></h3>
+                        <span>PPyS / Project Management / Value Engineering</span>
+                    </div>
+                </div>
+            </div>
+            <!-- 14 end -->
+            <!-- 15 -->
+            <div class="gallery-item planificacion project value">
+                <div class="grid-item-holder">
+                    <div class="box-item">
+                        <img  src="images/folio/thumbs/sinclair.jpg"   alt="">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="grid-item">
+                        <h3><a href="proyecto_sinclair" class="ajax portfolio-link">Sinclair 3045</a></h3>
+                        <span>PPyS / Project Management / Value Engineering</span>
+                    </div>
+                </div>
+            </div>
+            <!-- 15 end -->  
+            <!-- 15 -->
+            <div class="gallery-item planificacion project value">
+                <div class="grid-item-holder">
+                    <div class="box-item">
+                        <img  src="images/folio/thumbs/godoy.jpg"   alt="">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="grid-item">
+                        <h3><a href="proyecto_godoycruz" class="ajax portfolio-link">Godoy Cruz</a></h3>
+                        <span>PPyS / Project Management / Value Engineering</span>
+                    </div>
+                </div>
+            </div>
+            <!-- 15 end -->                                   
+        </div>
+        <!-- end gallery items -->                     
+            <section class="no-padding mr-bottom no-bg  pr-not">
+                                    <!-- container -->  
+        <!-- section  -->
+                <section class="no-padding mr-bottom">
+                    <div class="container small-container">
+                        <div class="notifer ntf-npa">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <h3>Ver lista completa de Obras y Proyectos </h3>
+                                </div>
+                                <div class="col-md-4"><a href="Brochure ST&Asoc.pdf" class="ajax btn flat-btn">PDF</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- section  end -->
+        <!-- container end-->   
+            </section>
+
+    </div>
+    <!-- content end-->
+</Layout>
